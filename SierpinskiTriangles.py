@@ -38,9 +38,9 @@ a1 = [0]
 b1 = [0]
 a, b = 0, 0
 
-max_num = 1000000
+num_triangles = int(input("Please input the number of triangles to generate: "))
 
-for i in range(max_num):
+for i in range(num_triangles):
     trans = choice(transformations)
     a, b = trans((a, b))
     a1.append(a)
