@@ -48,4 +48,5 @@ for i in range(num_triangles):
 
 plt.rc('figure', figsize=(16, 16))
 plt.plot(a1, b1, 'o')
+plt.savefig('triangles.png')
 plt.show()
