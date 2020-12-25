@@ -1,7 +1,7 @@
 <h1>Sierpinski Triangles</h1>
 
 <p>This is a simple program in python that 
-generates the number of triangles that the 
+generates the number of triangles via the sierpinski recursive functions that the 
 user determines. The following recursive 
 transformations are used to achieve 
 this:</p>
